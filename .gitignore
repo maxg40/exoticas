@@ -1,0 +1,13 @@
+#aca van todos los archivos que se deseean ignorar
+
+
+#ignora los archivo del sistemaa Mac
+.DS_store
+
+# ignora la carpeta img_cache
+img_cache
+#ignora todos los archivos de texto
+*.txt
+
+# ignora el archivo background.jpg
+background.jpg
