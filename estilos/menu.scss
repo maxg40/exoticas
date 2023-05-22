@@ -5,6 +5,11 @@
 
 .logo {
     width: 90px;
+    position: relative;
+    left: -100px;
+    transform: translateX(100px);
+    transition: all 1s ease-in-out;
+
 }
 .navbar-nav a:hover {
     transition: all 4ms ease-in-out;
