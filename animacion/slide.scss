@@ -1,0 +1,14 @@
+@keyframes slide {
+    0% {
+        translate: -100px;
+    }
+    100% {
+        translate: 0px;
+    }
+}
+
+.slide-logo{
+    animation-name: slide;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+}

@@ -5,10 +5,6 @@
 
 .logo {
   width: 90px;
-  position: relative;
-  left: -100px;
-  transform: translateX(100px);
-  transition: all 1s ease-in-out;
 }
 
 .navbar-nav a:hover {
@@ -289,6 +285,33 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+}
+@keyframes slide {
+  0% {
+    translate: -100px;
+  }
+  100% {
+    translate: 0px;
+  }
+}
+.slide-logo {
+  animation-name: slide;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.logogrande {
+  animation-name: opacity;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1.5s;
 }
 
 /*# sourceMappingURL=style.css.map */

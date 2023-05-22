@@ -1,0 +1,14 @@
+@keyframes opacity {
+    0% {
+        opacity: 0% ;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.logogrande {
+    animation-name: opacity;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+}
