@@ -24,7 +24,8 @@ footer {
     align-content: center;
     flex-direction: column;
     position:sticky;
-    bottom: auto;
+    bottom: 0;
+    margin-top: auto;
     padding-top: 10px;    
     border-top: 3px ridge white;
 }
