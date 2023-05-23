@@ -1,3 +1,5 @@
+@import "estilos/fondo.scss";
+
 .conteiner-redes {
     display: flex;
     justify-content: space-around;
@@ -17,8 +19,7 @@
     display: flex;
     height: 60px;
     width: 60px;
-    background-color: #FF9A8B;
-    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);    
+    @include bg-mixin;    
     border-radius: 50px;
     box-shadow: 2px 2px 5px black;
 }
@@ -34,8 +35,7 @@
         display: flex;
         height: 30px;
         width: 30px;
-        background-color: #FF9A8B;
-        background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);    
+        @include bg-mixin; 
         border-radius: 20px;
         box-shadow: 2px 2px 5px black;
     }
@@ -60,8 +60,7 @@
         display: flex;
         height: 20px;
         width: 20px;
-        background-color: #FF9A8B;
-        background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);    
+        @include bg-mixin;     
         border-radius: 10px;
         box-shadow: 2px 2px 5px black;
     }
