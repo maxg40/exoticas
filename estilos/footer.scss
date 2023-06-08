@@ -5,7 +5,7 @@ footer {
     flex-direction: column;
     position:sticky;
     bottom: 0;
-    padding-top: 3px;    
+    padding-top: 2px;    
     border-top: 3px ridge white;
     .conteiner-redes {
         display: flex;
@@ -16,14 +16,14 @@ footer {
         }
     }
     .img-sizes {
-        height: 50px;
-        width: 50px;
+        height: 30px;
+        width: 30px;
     }
     .decor-logo{
-    margin: 10px 20px 20px 20px;
+    margin: 5px 10px 10px 10px;
     display: flex;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     background-color: #e37482;
     background-image: linear-gradient(90deg, #e37482 0%, #FF6A88 55%, #ff99a6 100%);    
     border-radius: 50px;
